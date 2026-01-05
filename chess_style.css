@@ -1,0 +1,45 @@
+.container {
+    width: 425px;
+    height: 425px;
+    border: 2px solid;
+    margin-left: 38%;
+    margin-top: 150px;
+    background-color: beige;
+}
+.one ,.two, .three, .four, .five, .six, .seven, .eight {
+    display: flex;
+    
+}
+.square, .square1, .square2, .square3, .square4, .square5, .square6, .square7 {
+    width: 53px;
+    height: 53px;
+}
+.container>.one>.square:nth-child(even){
+    background-color: burlywood;
+}
+.container>.two>.square1:nth-child(odd){
+    background-color: burlywood;
+}
+.container>.three>.square2:nth-child(even){
+    background-color: burlywood;
+}
+.container>.four>.square3:nth-child(odd){
+    background-color: burlywood;
+}
+.container>.five>.square4:nth-child(even){
+    background-color: burlywood;
+}
+.container>.six>.square5:nth-child(odd){
+    background-color: burlywood;
+}
+.container>.seven>.square6:nth-child(even){
+    background-color: burlywood;
+}
+.container>.eight>.square7:nth-child(odd){
+    background-color: burlywood;
+}
+img {
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+}
